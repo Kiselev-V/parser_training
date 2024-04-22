@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-header = {'user_agent': 'dfdfdfdfdf'}
+header = {'user_agent': 'anyName'}
 
 link = "https://browser-info.ru/"
 response = requests.get(link, headers=header).text
